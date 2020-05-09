@@ -344,16 +344,6 @@ Relationship	"ncLOC_Libro_InvBal_Detail_REPORT_RW:ncLOC_Libro_InvBal_Account_REP
 Relationship	"ncLOC_Libro_Mayor_REPORT_RW:ncLOC_Libro_Mayor_NODE_REPORT"	"Financial"	22010
 Relationship	"ncLOC_Localizacion_SETP:ncLOC_Folios_REPORT"	"System"	22011
 Relationship	"clLC_Localizacion_SETP:ncLOC_Saltos_Temp_REPORT"	"Purchasing"	22012
-Form	"POR_Returns_Entry"	1434
-
-{
-	Field	"String92"	22000
-	Field	"Numeric93"	22001
-	Field	"Numeric94"	22002
-	Datatype	"String92"	22000
-	Datatype	"Numeric93"	22001
-	Datatype	"Numeric94"	22002
-}
 Form	"CL_Anula_Facturas"	22000
 
 {
@@ -3532,20 +3522,10 @@ String	"ncLOC_TiposBoletas_TEMP"	"System"	22097
 String	"ncLOC_Ventas_DocName_SETP"	"System"	22098
 String	"ncOpciones"	"System"	22099
 String	"nc_Installed_Module"	"System"	22100
-String	"Cheque0"	"System"	22101
 String	"Libro Mayor"	"System"	22102
-String	"Id. de moneda: "	"System"	22103
-String	"Código de auditoría orig.:"	"System"	22104
-String	"Número de contabilización consecutivo:"	"System"	22105
-String	"Otros impuestos"	"System"	22106
-String	"Son:"	"System"	22107
 String	"Customer_Details"	"Sales"	22108
 String	"RUT"	"System"	22109
 String	"GIRO"	"System"	22110
-String	"Razón Social"	"System"	22111
-String	"Representante legal de RUT"	"System"	22112
-String	"Nombre del representante"	"System"	22113
-String	"Núm. documento0"	"System"	22114
 String	"SubClass Footer"	"System"	22115
 String	"SubSubClass Footer"	"System"	22116
 String	"SubClass"	"System"	22117
@@ -3611,9 +3591,8 @@ String	"Nº Documento"	"System"	22176
 String	"Seleccionar Id. de sucursal"	"Financial"	22177
 String	"Movimientos período "	"System"	22178
 String	"Saldo final0"	"System"	22179
-String	"Financial"	"Project"	22180
+String	"Fecha usuario:"	"Inventory"	22180
 String	"Seleccionar tipo de doc."	"Payroll"	22181
-String	"Sr.:"	"Project"	22182
 String	"Generar número de secuencia"	"System"	22183
 String	"Cliente0"	"System"	22184
 String	"Cuenta0"	"System"	22185
@@ -3636,7 +3615,7 @@ String	"Libro deudas incorrectas"	"Inventory"	22201
 String	"Saldo inicial: "	"Payroll"	22202
 String	"Item0"	"System"	22203
 String	"Bodega"	"System"	22204
-String	"Sales"	"Project"	22205
+String	"Id. de usuario:"	"Financial"	22205
 String	"Reporte de compra adicional"	"Sales"	22206
 String	"Análisis de inventario"	"System"	22207
 String	"Supplier"	"System"	22208
@@ -3666,7 +3645,7 @@ String	"Nº Docs"	"System"	22231
 String	"El certificado actual se confecciona de acuerdo con la Resolución"	"System"	22232
 String	"Ex. 6509 del servicio de impuestos internos publicada en el periódico oficial"	"Financial"	22233
 String	"el 2 de diciembre de 1993 y los subsiguientes"	"Sales"	22234
-String	"Purchasing"	"Project"	22235
+String	"Número de documento"	"Purchasing"	22235
 String	"IMPUESTO RETENIDO"	"Inventory"	22236
 String	"Tarifas"	"Payroll"	22237
 String	"IDPrefijo"	"System"	22238
@@ -3709,24 +3688,6 @@ String	"IMPUESTO RETENIDO ACTUALIZADO"	"System"	22274
 String	"Primer correlativo del período"	"System"	22275
 String	"Último correlativo del período"	"System"	22276
 String	"Omitir correlativos"	"System"	22277
-String	"Sr."	"System"	22278
-String	"Giro"	"System"	22279
-String	"F:/"	"System"	22280
-String	"RUT:"	"System"	22281
-String	"SON:"	"System"	22282
-String	"Giro:"	"System"	22283
-String	"Para los siguientes elementos:"	"System"	22284
-String	"N.C./"	"System"	22285
-String	"A."	"System"	22286
-String	"F./"	"System"	22287
-String	"N° de serie:"	"System"	22288
-String	"Comentario 10"	"System"	22289
-String	"Comentario 20"	"System"	22290
-String	"Pedido en espera0"	"System"	22291
-String	"Artículo0"	"System"	22292
-String	"Pendientes"	"System"	22293
-String	"Artículo  "	"System"	22294
-String	"Borrador 1  "	"System"	22295
 String	"FALTAN CORRELATIVOS DE COMPRAS"	"System"	22296
 String	"De           A            De            A"	"System"	22297
 String	"Entrada de código de documento"	"Purchasing"	22298
@@ -3753,28 +3714,6 @@ String	"Usar función de Id. de documento"	"Sales"	22318
 String	"Falta correlación en compras"	"Purchasing"	22319
 String	"Reportes legales"	"Inventory"	22320
 String	"Tipo de cuentas"	"Payroll"	22321
-String	"Proveedor:0"	"Project"	22322
-String	"Enviar a:0"	"System"	22323
-String	"Forma de envío"	"Financial"	22324
-String	"Cond. de pago"	"Sales"	22325
-String	"Confirmar con0"	"Purchasing"	22326
-String	"Página0"	"Inventory"	22327
-String	"Núm. artículo"	"Payroll"	22328
-String	"Fecha sol."	"Project"	22329
-String	"Pedido 0"	"System"	22330
-String	"Precio unitario0"	"Financial"	22331
-String	"Precio total0"	"Sales"	22332
-String	"Fecha0"	"Purchasing"	22333
-String	"Número de referencia0"	"Inventory"	22334
-String	"^  Cambiado desde la revisión anterior0"	"Payroll"	22335
-String	"Orden de compra0"	"Project"	22336
-String	"Núm. orden compra"	"System"	22337
-String	"Dto. comercial0"	"Financial"	22338
-String	"Transporte"	"Sales"	22339
-String	"Varios "	"Purchasing"	22340
-String	"Impuesto0"	"Inventory"	22341
-String	"Total pedido"	"Payroll"	22342
-String	"Firma autorizada0"	"Project"	22343
 String	"Advertir si faltan códigos de documento"	"System"	22344
 String	"ncLOC_Ventas_DocName_TEMP"	"Financial"	22345
 String	"Ganancia "	"Sales"	22346
@@ -4330,25 +4269,260 @@ String	"Número de cancelación"	"Payroll"	22895
 String	"Fecha de cancelación"	"Project"	22896
 String	"Página:0"	"System"	22897
 String	"Números de secuencia omitidos "	"Financial"	22898
-String	"Inventory"	"Project"	22899
-String	"Payroll"	"Project"	22900
-String	"Project"	"Project"	22901
-String	"System"	"Project"	22902
-String	"Company"	"Project"	22903
-String	"OnlineDoc0"	"Project"	22904
-String	"3rdParty0"	"Project"	22905
-String	"Macro0"	"Project"	22906
-String	"Palette"	"Project"	22907
-String	"Dexterity0"	"Project"	22908
-String	"DexterSys0"	"Project"	22909
-String	"RW0"	"Project"	22910
-String	"PRTax0"	"Project"	22911
-String	"Pathname"	"Project"	22912
-String	"DesignDoc0"	"Project"	22913
-String	"clLC_POR_TranEntry_CambiaNum_ForDocCode"	"System"	22914
+String	"Id. de moneda"	"Sales"	22899
+String	"Monto del documento"	"Purchasing"	22900
+String	"Página:"	"Inventory"	22901
+String	"Sistema:"	"Payroll"	22902
+String	"Año:"	"Project"	22903
+String	"Documentos:"	"Purchasing"	22907
+String	"Desde:"	"Financial"	22912
 String	"Inventory and Balance Report"	"Inventory"	22915
 String	"Columna 1"	"Payroll"	22916
 String	"Columna 2"	"Project"	22917
+String	"Hasta:"	"System"	22918
+String	"Fecha:"	"Financial"	22919
+String	"Descripción del documento"	"Sales"	22920
+String	"Reporte de consulta de transacción CC"	"Purchasing"	22921
+String	"Id. de lote de destino:"	"Inventory"	22922
+String	"Agregar nota de ventana"	"Payroll"	22923
+String	"Abrir nota de ventana"	"Project"	22924
+String	"Factura"	"System"	22925
+String	"Fecha"	"Financial"	22926
+String	"Facturas"	"Sales"	22927
+String	"Mostrar detalles"	"Purchasing"	22928
+String	"Actualizar"	"Inventory"	22929
+String	"Especificar valor de búsqueda"	"Payroll"	22930
+String	"Ayuda acerca de esta ventana (F1)    "	"Project"	22931
+String	"de"	"System"	22932
+String	"Períodos"	"Financial"	22933
+String	"Nombre"	"Sales"	22934
+String	"Dirección"	"Purchasing"	22935
+String	"Monto de la retención"	"Inventory"	22936
+String	"Período"	"Payroll"	22937
+String	"Monto bruto"	"Project"	22938
+String	"Descripción"	"System"	22939
+String	"Tipo"	"Financial"	22940
+String	"Fecha del documento"	"Sales"	22941
+String	"Saldo"	"Purchasing"	22942
+String	"Ciudad"	"Inventory"	22943
+String	"Total general:"	"Payroll"	22944
+String	"Id. de detalle imp."	"Project"	22945
+String	"Monto"	"System"	22946
+String	"Id. de proveedor"	"Financial"	22947
+String	"Nombre del proveedor"	"Sales"	22948
+String	"Monto neto"	"Purchasing"	22949
+String	"Tipo de documento"	"Inventory"	22950
+String	"Id. de impuesto"	"Payroll"	22951
+String	"Monto impuesto"	"Project"	22952
+String	"Tasa impuesto"	"System"	22953
+String	"Fecha de contabilización de doc."	"Financial"	22954
+String	"Id. de cliente"	"Sales"	22955
+String	"Mostrar todo"	"Purchasing"	22956
+String	"Mostrar elementos seleccionados"	"Inventory"	22957
+String	"Seleccione por:"	"Payroll"	22958
+String	"Extranjero"	"Project"	22959
+String	"Consulta (CTRL+C)"	"System"	22960
+String	"Ayuda acerca de esta ventana (F1)"	"Financial"	22961
+String	"Opción"	"Sales"	22962
+String	"Id. de tipo"	"Purchasing"	22963
+String	"Fecha de vencim."	"Inventory"	22964
+String	"Reporte de métodos de envío con notas"	"Payroll"	22965
+String	"Todo"	"Project"	22966
+String	"Ninguno"	"System"	22967
+String	"por Id. de cliente"	"Financial"	22968
+String	"por Id. de proveedor"	"Sales"	22969
+String	"Tipo de documento:"	"Purchasing"	22970
+String	"Descripción:"	"Inventory"	22971
+String	"Fecha doc."	"Payroll"	22972
+String	"Tipo de doc."	"Project"	22973
+String	"Ocultar detalles"	"System"	22974
+String	"Imprimir (Ctrl+P)"	"Financial"	22975
+String	"Buscar"	"Sales"	22976
+String	"Buscar:"	"Purchasing"	22977
+String	"Caso específico"	"Inventory"	22978
+String	"Coincidir sólo con palabras enteras"	"Payroll"	22979
+String	"Tipo de doc"	"Project"	22980
+String	"Módulo"	"System"	22981
+String	"Último registro"	"Financial"	22982
+String	"Registro siguiente"	"Sales"	22983
+String	"Agregar nota para registro"	"Purchasing"	22984
+String	"Abrir nota para registro"	"Inventory"	22985
+String	"Registro anterior"	"Payroll"	22986
+String	"Primer registro"	"Project"	22987
+String	"Núm. comprobante"	"System"	22988
+String	"Núm. de recibo"	"Financial"	22989
+String	"Núm. doc. de prov."	"Sales"	22990
+String	"Ventas"	"Purchasing"	22991
+String	"Compra"	"Inventory"	22992
+String	"Tipo impuesto:"	"Payroll"	22993
+String	"Eliminar fila"	"Project"	22994
+String	"Correlativo"	"System"	22995
+String	"Cuenta"	"Financial"	22996
+String	"Saldo de cuenta:"	"Sales"	22997
+String	"Nombre de compañía"	"Purchasing"	22998
+String	"Diario"	"Inventory"	22999
+String	"Moneda"	"Payroll"	23000
+String	"Débito"	"Project"	23001
+String	"Crédito"	"System"	23002
+String	"Clase"	"Financial"	23003
+String	"Resultado"	"Sales"	23004
+String	"Página: "	"Purchasing"	23005
+String	"Ganancias "	"Inventory"	23006
+String	"Número de cuenta"	"Payroll"	23007
+String	"Usuario:"	"Project"	23008
+String	"Número"	"System"	23009
+String	"Comprobante"	"Financial"	23010
+String	"Número de documento:"	"Sales"	23011
+String	"Fecha del documento:"	"Purchasing"	23012
+String	"Referencia:"	"Inventory"	23013
+String	"Referencia de distribución"	"Payroll"	23014
+String	"Descripción de cuenta"	"Project"	23015
+String	"Activos fijos"	"System"	23016
+String	"Página"	"Financial"	23017
+String	"Cantidad"	"Sales"	23018
+String	"Costo unitario"	"Purchasing"	23019
+String	"Artículo"	"Inventory"	23020
+String	"Tipo de transacción"	"Payroll"	23021
+String	"Débitos"	"Project"	23022
+String	"Créditos"	"System"	23023
+String	"Totales:"	"Financial"	23024
+String	"Contabilidad "	"Sales"	23025
+String	"Referencia"	"Purchasing"	23026
+String	"Transacción"	"Inventory"	23027
+String	"Encabezado"	"Payroll"	23028
+String	"Nombre:"	"Project"	23029
+String	"Proveedor"	"System"	23030
+String	"Núm. documento   "	"Financial"	23031
+String	"Unidades"	"Sales"	23032
+String	"Documento"	"Purchasing"	23033
+String	"Variación"	"Inventory"	23034
+String	"Costo"	"Payroll"	23035
+String	"Saldo inicial "	"Project"	23036
+String	"Fecha "	"System"	23037
+String	"Tipo de artículo"	"Financial"	23038
+String	"Total general"	"Sales"	23039
+String	"Nombre de cliente"	"Purchasing"	23040
+String	"Monto de cancelación "	"Inventory"	23041
+String	"Fecha :"	"Payroll"	23042
+String	"Tipo impuesto"	"Project"	23043
+String	"Serie"	"System"	23044
+String	"Descripción detalle de impuesto"	"Financial"	23045
+String	"Hora:"	"Sales"	23046
+String	"Procesar"	"Purchasing"	23047
+String	"Ayuda acerca de esta ventana"	"Inventory"	23048
+String	"Exento"	"Payroll"	23049
+String	"Monto gravable"	"Project"	23050
+String	"Días"	"System"	23051
+String	"Mes siguiente"	"Financial"	23052
+String	"Devoluciones compra"	"Sales"	23053
+String	"Documentos ventas"	"Purchasing"	23054
+String	"Información de la versión"	"Inventory"	23055
+String	"Importar"	"Payroll"	23056
+String	"Año"	"Project"	23057
+String	"Id. de período"	"System"	23058
+String	"Descripción artículo"	"Financial"	23059
+String	"Nombre de cuenta"	"Sales"	23060
+String	"Buscar    "	"Purchasing"	23061
+String	"Cuentas no asignadas"	"Inventory"	23062
+String	"Cambiar nombre"	"Payroll"	23063
+String	"Eliminar"	"Project"	23064
+String	"Nivel 1"	"System"	23065
+String	"Nivel 2"	"Financial"	23066
+String	"Nivel 3"	"Sales"	23067
+String	"Nivel 4"	"Purchasing"	23068
+String	"Nivel 5"	"Inventory"	23069
+String	"Cerrar"	"Payroll"	23070
+String	"Entrada de diario"	"Project"	23071
+String	"Tipo de análisis"	"System"	23072
+String	"País"	"Financial"	23073
+String	"Teléfono "	"Sales"	23074
+String	"Opciones:"	"Purchasing"	23075
+String	"Región"	"Inventory"	23076
+String	"Id."	"Payroll"	23077
+String	"Cargo financiero"	"Project"	23078
+String	"Devolución"	"System"	23079
+String	"Nota de crédito"	"Financial"	23080
+String	"Nota de débito"	"Sales"	23081
+String	"Servicio/reparaciones"	"Purchasing"	23082
+String	"Cancelar"	"Inventory"	23083
+String	"Reemplazar"	"Payroll"	23084
+String	"Código"	"Project"	23085
+String	"Volver a generar"	"System"	23086
+String	"Análisis"	"Financial"	23087
+String	"Aceptar"	"Sales"	23088
+String	"Ajuste por incremento"	"Purchasing"	23089
+String	"Ensamble"	"Inventory"	23090
+String	"Ajuste de disminución"	"Payroll"	23091
+String	"Inventario en tránsito"	"Project"	23092
+String	"Inventario con crédito "	"System"	23093
+String	"Inventario"	"Financial"	23094
+String	"Envío "	"Sales"	23095
+String	"Envío/factura"	"Purchasing"	23096
+String	"Transferencia"	"Inventory"	23097
+String	"Tarjeta de crédito"	"Payroll"	23098
+String	"Efectivo"	"Project"	23099
+String	"Cheque"	"System"	23100
+String	"TEF"	"Financial"	23101
+String	"Anual"	"Sales"	23102
+String	"Enero"	"Purchasing"	23103
+String	"Febrero"	"Inventory"	23104
+String	"Marzo"	"Payroll"	23105
+String	"Abril"	"Project"	23106
+String	"Mayo"	"System"	23107
+String	"Junio"	"Financial"	23108
+String	"Julio"	"Sales"	23109
+String	"Agosto"	"Purchasing"	23110
+String	"Septiembre"	"Inventory"	23111
+String	"Octubre"	"Payroll"	23112
+String	"Noviembre"	"Project"	23113
+String	"Diciembre"	"System"	23114
+String	"Compras"	"Financial"	23115
+String	"Opciones"	"Sales"	23116
+String	"&Exportar"	"Purchasing"	23117
+String	"Ajuste"	"Inventory"	23118
+String	"Artículo componente"	"Payroll"	23119
+String	"Formulario"	"Project"	23120
+String	"De sitio"	"System"	23121
+String	"Fecha contab. Cont."	"Financial"	23122
+String	"Al sitio"	"Sales"	23123
+String	"Desde"	"Purchasing"	23124
+String	"&Quitar"	"Inventory"	23125
+String	"Abrir"	"Payroll"	23126
+String	"Cerrado(a)"	"Project"	23127
+String	"Documentos"	"System"	23128
+String	"Ordenar por fecha"	"Financial"	23129
+String	"Ver"	"Sales"	23130
+String	"Id. de documento"	"Purchasing"	23131
+String	"Id. de impuesto:"	"Inventory"	23132
+String	"Procesamiento de órdenes de compra"	"Payroll"	23133
+String	"Administración de cuentas por pagar"	"Project"	23134
+String	"Progreso"	"System"	23135
+String	"Reporte"	"Financial"	23136
+String	"Ordenar:"	"Sales"	23137
+String	"Intervalos:"	"Purchasing"	23138
+String	"Restricciones:"	"Inventory"	23139
+String	"Reportes financieros"	"Payroll"	23140
+String	"Año fiscal:"	"Project"	23141
+String	"Libro de reporte"	"System"	23142
+String	"Reportes de ventas"	"Financial"	23143
+String	"Reportes inventario"	"Sales"	23144
+String	"Opciones de reporte"	"Purchasing"	23145
+String	"Opciones de filtro"	"Inventory"	23146
+String	"Módulo:"	"Payroll"	23147
+String	"Id. de sitio"	"Project"	23148
+String	"Número de artículo:"	"System"	23149
+String	"Número de artículo"	"Financial"	23150
+String	"Administración de cuentas por cobrar"	"Sales"	23151
+String	"Ventas/factura"	"Purchasing"	23152
+String	"Procesamiento de pedidos de venta"	"Inventory"	23153
+String	"Cargos misceláneos"	"Payroll"	23154
+String	"&Aceptar"	"Project"	23155
+String	"&Cancelar"	"System"	23156
+String	"Formato"	"Financial"	23157
+String	"Agregar"	"Sales"	23158
+String	"Teléfono 1"	"Purchasing"	23159
+String	"Teléfono 2"	"Inventory"	23160
+String	"Teléfono 3"	"Payroll"	23161
 Field	"ncLOC_ABNode_Depth"	"Project"	22000
 Field	"nc_AllowedToUseModule"	"System"	22001
 Field	"Rut Compañía"	"Financial"	22002
@@ -4736,7 +4910,6 @@ Procedure	"CL_RI_Actualiza_Linea_Impuesto"	"Sales"	22008
 Procedure	"CL_RI_Calcula_Impuesto_Por_Documento"	"Sales"	22009
 Procedure	"CL_RI_Consulta_Datos_Impuesto"	"Sales"	22010
 Procedure	"CL_RI_Consulta_Datos_Linea_Impuesto"	"Sales"	22011
-Procedure	"Exec_PassThruSql"	"System"	22012
 Procedure	"REG45074_Tax_Detail_Lookup_Scroll_Fill_Before"	"System"	22013
 Procedure	"CL_RI_Deshabilita_Boton_Preterminado"	"Sales"	22014
 Procedure	"CL_RI_ObtieneImpoDeta_Total"	"Sales"	22015
